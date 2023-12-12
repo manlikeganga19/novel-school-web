@@ -64,12 +64,12 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
-                  <p className="section__description mb-0">+254797233957</p>
+                  <p className="section__description mb-0">+254722991368</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">orwenjodaniel19@gmail.com</p>
+                  <p className="section__description mb-0">info@novelschool.com</p>
                 </div>
 
                 <h6 className="fw-bold mt-4">Follow Us</h6>

@@ -27,10 +27,13 @@
   color: #fff;
 }
 .car__btn-details {
-  background: #f9a826;
+  background: #d4d1d1;
   border-radius: 0px 4px 4px 0px;
 }
-
+.car__btn-details:hover{
+  background: #000d6b;
+  transition: all 0.5s ease;
+}
 .car__btn-rent {
   border-radius: 4px 0px 0px 4px;
 }

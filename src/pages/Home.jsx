@@ -44,8 +44,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">See our</h6>
-              <h2 className="section__title">Popular Services</h2>
+              <h6 className="section__subtitle">WELCOME TO</h6>
+              <h2 className="section__title">NOVEL JUNIOR SCHOOL</h2>
             </Col>
 
             <ServicesList />
@@ -57,8 +57,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h2 className="section__title">ENCOURAGING CURIOUS MINDS TO REACH <br /> FULL POTENTIAL</h2>
+              <h4 className="section__description">The Novel School stands as a center of excellence committed to delivering students top-notch education, comprehensive experiences, and continuous opportunities for honing their skills and talents. Our philosophy is centered on nurturing the inquisitive minds of learners, empowering them to unlock their full potential.</h4>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -75,8 +75,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
               <h2 className="section__title">Testimonials</h2>
+              <h6 className="section__subtitle">What Our Parents are Saying</h6>
             </Col>
 
             <Testimonial />
