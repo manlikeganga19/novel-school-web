@@ -11,7 +11,7 @@ const navLinks = [
   },
   {
     path: "/about ",
-    display: "About us",
+    display: "About Us",
   },
   {
     path: "/admissions",
@@ -24,7 +24,7 @@ const navLinks = [
   },
   {
     path: "/contact",
-    display: "Contact us",
+    display: "Contact Us",
   },
 ];
 
@@ -50,11 +50,11 @@ const Header = () => {
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
+                <Link to="sign-in" className=" d-flex align-items-center gap-1">
                   <i class="ri-login-circle-line"></i> Login
                 </Link>
 
-                <Link to="#" className=" d-flex align-items-center gap-1">
+                <Link to="sign-up" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Register
                 </Link>
               </div>
@@ -64,7 +64,7 @@ const Header = () => {
       </div>
 
       {/* =============== header middle =========== */}
-      <div className="header__middle">
+      <div className="header__middle ">
         <Container>
           <Row>
             <Col lg="4" md="3" sm="4">
